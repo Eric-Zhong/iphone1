@@ -1,6 +1,5 @@
 <template>
   <div>
-    <LayoutHeader></LayoutHeader>
     <LayoutContent>
       <div slot="content">
         <slot name="main"></slot>
