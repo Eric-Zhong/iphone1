@@ -8,7 +8,8 @@
     "build-test": "cross-env BUILD_ENV=test NODE_ENV=development node build",
     "kill-port": "kill -9 $(lsof -i:8888 |grep 'node'|awk '{print $2}') ",
     "start": "node index.js",
-    "start-prod": "cross-env npm run build && NODE_ENV=production node index.js",
+    "start-prod": "cross-env NODE_ENV=production node index.js",
+    "start-prod1": "cross-env npm run build && NODE_ENV=production node index.js",
     "restart": "npm run kill-port && npm run start",
     "lint": "eslint .",
     "fix": "eslint --fix ."

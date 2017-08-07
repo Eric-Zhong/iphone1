@@ -5,11 +5,17 @@ npm-debug.log
 .idea/
 dist
 static
+public
 private
+run
 *.iml
 artifacts.json
 *tmp
 _site
 logs
 .vscode
+config/buildConfig.json
+config/manifest.json
+app/view/*
+!app/view/layout.html
 !app/view/README.md
