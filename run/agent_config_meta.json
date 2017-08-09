@@ -3,7 +3,7 @@
     "/favicon.ico": "/Work/Nodejs/egg/iphone2/config/config.default.js"
   },
   "view": {
-    "cache": "/Work/Nodejs/egg/iphone2/config/config.default.js",
+    "cache": "/Work/Nodejs/egg/iphone2/node_modules/egg-view/config/config.local.js",
     "root": "/Work/Nodejs/egg/iphone2/node_modules/egg-view/config/config.default.js",
     "defaultExtension": "/Work/Nodejs/egg/iphone2/node_modules/egg-view/config/config.default.js",
     "defaultViewEngine": "/Work/Nodejs/egg/iphone2/node_modules/egg-view-vue/config/config.default.js",
@@ -14,9 +14,9 @@
   "vuessr": {
     "layout": "/Work/Nodejs/egg/iphone2/config/config.default.js",
     "injectRes": "/Work/Nodejs/egg/iphone2/config/config.default.js",
+    "injectCss": "/Work/Nodejs/egg/iphone2/config/config.local.js",
     "manifest": "/Work/Nodejs/egg/iphone2/node_modules/egg-view-vue-ssr/config/config.default.js",
     "buildConfig": "/Work/Nodejs/egg/iphone2/node_modules/egg-view-vue-ssr/config/config.default.js",
-    "injectCss": "/Work/Nodejs/egg/iphone2/node_modules/egg-view-vue-ssr/config/config.default.js",
     "injectJs": "/Work/Nodejs/egg/iphone2/node_modules/egg-view-vue-ssr/config/config.default.js",
     "crossorigin": "/Work/Nodejs/egg/iphone2/node_modules/egg-view-vue-ssr/config/config.default.js",
     "fallbackToClient": "/Work/Nodejs/egg/iphone2/node_modules/egg-view-vue-ssr/config/config.default.js",
@@ -35,74 +35,63 @@
     "coreLogName": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
     "agentLogName": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
     "errorLogName": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-    "coreLogger": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js"
+    "coreLogger": {
+      "consoleLevel": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.local.js"
+    }
   },
   "static": {
     "prefix": "/Work/Nodejs/egg/iphone2/config/config.default.js",
     "dir": "/Work/Nodejs/egg/iphone2/config/config.default.js",
+    "maxAge": "/Work/Nodejs/egg/iphone2/config/config.local.js",
     "dynamic": "/Work/Nodejs/egg/iphone2/node_modules/egg-static/config/config.default.js",
     "preload": "/Work/Nodejs/egg/iphone2/node_modules/egg-static/config/config.default.js",
-    "buffer": "/Work/Nodejs/egg/iphone2/node_modules/egg-static/config/config.prod.js",
-    "maxFiles": "/Work/Nodejs/egg/iphone2/node_modules/egg-static/config/config.default.js",
-    "maxAge": "/Work/Nodejs/egg/iphone2/node_modules/egg-static/config/config.prod.js"
+    "buffer": "/Work/Nodejs/egg/iphone2/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Work/Nodejs/egg/iphone2/node_modules/egg-static/config/config.default.js"
   },
   "keys": "/Work/Nodejs/egg/iphone2/config/config.default.js",
   "middleware": "/Work/Nodejs/egg/iphone2/config/config.default.js",
-  "onerror": {
-    "errorPageUrl": "/Work/Nodejs/egg/iphone2/node_modules/egg-onerror/config/config.default.js",
-    "appErrorFilter": "/Work/Nodejs/egg/iphone2/node_modules/egg-onerror/config/config.default.js"
+  "development": {
+    "watchDirs": "/Work/Nodejs/egg/iphone2/config/config.local.js",
+    "ignoreDirs": "/Work/Nodejs/egg/iphone2/config/config.local.js",
+    "fastReady": "/Work/Nodejs/egg/iphone2/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Work/Nodejs/egg/iphone2/node_modules/egg-development/config/config.default.js"
   },
-  "session": {
-    "maxAge": "/Work/Nodejs/egg/iphone2/node_modules/egg-session/config/config.default.js",
-    "key": "/Work/Nodejs/egg/iphone2/node_modules/egg-session/config/config.default.js",
-    "httpOnly": "/Work/Nodejs/egg/iphone2/node_modules/egg-session/config/config.default.js",
-    "encrypt": "/Work/Nodejs/egg/iphone2/node_modules/egg-session/config/config.default.js"
+  "logview": {
+    "dir": "/Work/Nodejs/egg/iphone2/config/config.local.js",
+    "prefix": "/Work/Nodejs/egg/iphone2/node_modules/egg-logview/config/config.default.js",
+    "staticHost": "/Work/Nodejs/egg/iphone2/node_modules/egg-logview/config/config.default.js"
   },
-  "i18n": {
-    "defaultLocale": "/Work/Nodejs/egg/iphone2/node_modules/egg-i18n/config/config.default.js",
-    "dirs": "/Work/Nodejs/egg/iphone2/node_modules/egg-i18n/config/config.default.js",
-    "queryField": "/Work/Nodejs/egg/iphone2/node_modules/egg-i18n/config/config.default.js",
-    "cookieField": "/Work/Nodejs/egg/iphone2/node_modules/egg-i18n/config/config.default.js",
-    "cookieMaxAge": "/Work/Nodejs/egg/iphone2/node_modules/egg-i18n/config/config.default.js"
-  },
-  "watcher": {
-    "type": "/Work/Nodejs/egg/iphone2/node_modules/egg-watcher/config/config.default.js",
-    "eventSources": {
-      "default": "/Work/Nodejs/egg/iphone2/node_modules/egg-watcher/config/config.default.js",
-      "development": "/Work/Nodejs/egg/iphone2/node_modules/egg-watcher/config/config.default.js"
-    }
-  },
-  "multipart": {
-    "autoFields": "/Work/Nodejs/egg/iphone2/node_modules/egg-multipart/config/config.default.js",
-    "defaultCharset": "/Work/Nodejs/egg/iphone2/node_modules/egg-multipart/config/config.default.js",
-    "fieldNameSize": "/Work/Nodejs/egg/iphone2/node_modules/egg-multipart/config/config.default.js",
-    "fieldSize": "/Work/Nodejs/egg/iphone2/node_modules/egg-multipart/config/config.default.js",
-    "fields": "/Work/Nodejs/egg/iphone2/node_modules/egg-multipart/config/config.default.js",
-    "fileSize": "/Work/Nodejs/egg/iphone2/node_modules/egg-multipart/config/config.default.js",
-    "files": "/Work/Nodejs/egg/iphone2/node_modules/egg-multipart/config/config.default.js",
-    "fileExtensions": "/Work/Nodejs/egg/iphone2/node_modules/egg-multipart/config/config.default.js",
-    "whitelist": "/Work/Nodejs/egg/iphone2/node_modules/egg-multipart/config/config.default.js"
+  "webpack": {
+    "proxyMapping": {
+      "html": "/Work/Nodejs/egg/iphone2/config/config.local.js",
+      "js": "/Work/Nodejs/egg/iphone2/node_modules/egg-webpack/config/config.default.js",
+      "css": "/Work/Nodejs/egg/iphone2/node_modules/egg-webpack/config/config.default.js",
+      "json": "/Work/Nodejs/egg/iphone2/node_modules/egg-webpack/config/config.default.js"
+    },
+    "webpackConfigList": "/Work/Nodejs/egg/iphone2/config/config.local.js",
+    "port": "/Work/Nodejs/egg/iphone2/node_modules/egg-webpack/config/config.default.js",
+    "proxy": "/Work/Nodejs/egg/iphone2/node_modules/egg-webpack/config/config.default.js"
   },
   "security": {
+    "csrf": {
+      "useSession": "/Work/Nodejs/egg/iphone2/config/config.local.js",
+      "ignoreJSON": "/Work/Nodejs/egg/iphone2/config/config.local.js",
+      "cookieName": "/Work/Nodejs/egg/iphone2/config/config.local.js",
+      "sessionName": "/Work/Nodejs/egg/iphone2/config/config.local.js",
+      "headerName": "/Work/Nodejs/egg/iphone2/config/config.local.js",
+      "bodyName": "/Work/Nodejs/egg/iphone2/config/config.local.js",
+      "queryName": "/Work/Nodejs/egg/iphone2/config/config.local.js",
+      "enable": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js"
+    },
     "domainWhiteList": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js",
     "protocolWhiteList": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js",
     "defaultMiddleware": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js",
-    "csrf": {
-      "enable": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js",
-      "useSession": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js",
-      "ignoreJSON": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js",
-      "cookieName": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js",
-      "sessionName": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js",
-      "headerName": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js",
-      "bodyName": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js",
-      "queryName": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js"
-    },
     "xframe": {
       "enable": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js",
       "value": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js",
+      "enable": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.local.js",
       "maxAge": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js",
       "includeSubdomains": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js"
     },
@@ -127,6 +116,41 @@
       "policy": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js"
     }
   },
+  "onerror": {
+    "errorPageUrl": "/Work/Nodejs/egg/iphone2/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Work/Nodejs/egg/iphone2/node_modules/egg-onerror/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Work/Nodejs/egg/iphone2/node_modules/egg-session/config/config.default.js",
+    "key": "/Work/Nodejs/egg/iphone2/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Work/Nodejs/egg/iphone2/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Work/Nodejs/egg/iphone2/node_modules/egg-session/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Work/Nodejs/egg/iphone2/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Work/Nodejs/egg/iphone2/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Work/Nodejs/egg/iphone2/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Work/Nodejs/egg/iphone2/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Work/Nodejs/egg/iphone2/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Work/Nodejs/egg/iphone2/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Work/Nodejs/egg/iphone2/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Work/Nodejs/egg/iphone2/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Work/Nodejs/egg/iphone2/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Work/Nodejs/egg/iphone2/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Work/Nodejs/egg/iphone2/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Work/Nodejs/egg/iphone2/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Work/Nodejs/egg/iphone2/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Work/Nodejs/egg/iphone2/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Work/Nodejs/egg/iphone2/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Work/Nodejs/egg/iphone2/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Work/Nodejs/egg/iphone2/node_modules/egg-multipart/config/config.default.js"
+  },
   "helper": {
     "shtml": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js"
   },
@@ -144,7 +168,11 @@
     "csrf": "/Work/Nodejs/egg/iphone2/node_modules/egg-jsonp/config/config.default.js"
   },
   "vue": {
-    "cache": "/Work/Nodejs/egg/iphone2/node_modules/egg-view-vue/config/config.default.js"
+    "cache": "/Work/Nodejs/egg/iphone2/node_modules/egg-view-vue/config/config.local.js"
+  },
+  "cors": "/Work/Nodejs/egg/iphone2/node_modules/egg-cors/config/config.default.js",
+  "webpackvue": {
+    "manifest": "/Work/Nodejs/egg/iphone2/node_modules/egg-webpack-vue/config/config.default.js"
   },
   "env": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
   "name": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
@@ -205,6 +233,7 @@
       "eslint-config-egg": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
       "eslint-plugin-vue": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
       "ip": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
+      "lowdb": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
       "node-noop": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
       "string-replace-webpack-plugin": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
       "vconsole": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js"

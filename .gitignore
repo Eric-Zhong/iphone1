@@ -13,3 +13,4 @@ _site
 logs
 .vscode
 !app/view/README.md
+__db

@@ -119,9 +119,10 @@ export default {
   data() {
     return {
       optionColor: [
-        { text: "玫瑰金", checked: true },
-        { text: "土豪金", checked: false },
-        { text: "科技银", checked: false }
+        { text: "银色", checked: true }
+        // ,
+        // { text: "土豪金", checked: false },
+        // { text: "科技银", checked: false }
       ],
       order: {
         product: "",
