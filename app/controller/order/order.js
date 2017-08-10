@@ -13,6 +13,7 @@ exports.index = function* (ctx) {
     // 将Ajax转入的form数据，转成string，用于输出显示
     let form = JSON.stringify(ctx.request.body); // 将JSON obj转string
     let data = ctx.request.body;
+    data.createtime = new Date();
 
     console.log(form);
 

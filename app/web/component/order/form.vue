@@ -12,7 +12,7 @@
             </label>
             <div class="dxbox red chanpin not3chanpin0">
               <label class="now">
-                <input type="radio" name="product" id="a0" value="正品行货4.7寸128G499元" alt="499" checked="" onclick="pricea();yincang();">&nbsp;正品行货4.7寸128G&nbsp;&nbsp;499元
+                <input type="radio" name="product" id="a0" value="正品行货4.7寸128G499元" alt="499" checked="" onclick="pricea();yincang();">&nbsp;正品行货4.7寸128G&nbsp;&nbsp;599元
               </label>
             </div>
           </div>
@@ -127,14 +127,14 @@ export default {
       order: {
         product: "",
         color: "",
-        amount: 0,
+        amount: 1,
         name: "",
         telephone: "",
         area: {},
         city: "",
         depart: "",
         address: "",
-        price: 0.00,
+        price: 599,
         comment: ""
       }
     };

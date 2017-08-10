@@ -220,27 +220,27 @@
               "/Work/Nodejs/egg/iphone2/app/web/framework/inject/pack-inline.js"
             ],
             "about/about": [
-              "/Work/Nodejs/egg/iphone2/node_modules/webpack-hot-middleware/client?path=http://172.16.9.227:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Work/Nodejs/egg/iphone2/node_modules/webpack-hot-middleware/client?path=http://172.16.10.93:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
               "/Work/Nodejs/egg/iphone2/app/web/page/about/about.js"
             ],
             "app/app": [
-              "/Work/Nodejs/egg/iphone2/node_modules/webpack-hot-middleware/client?path=http://172.16.9.227:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Work/Nodejs/egg/iphone2/node_modules/webpack-hot-middleware/client?path=http://172.16.10.93:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
               "/Work/Nodejs/egg/iphone2/app/web/page/app/app.js"
             ],
             "element/element": [
-              "/Work/Nodejs/egg/iphone2/node_modules/webpack-hot-middleware/client?path=http://172.16.9.227:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Work/Nodejs/egg/iphone2/node_modules/webpack-hot-middleware/client?path=http://172.16.10.93:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
               "/Work/Nodejs/egg/iphone2/app/web/page/element/element.js"
             ],
             "front/front": [
-              "/Work/Nodejs/egg/iphone2/node_modules/webpack-hot-middleware/client?path=http://172.16.9.227:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Work/Nodejs/egg/iphone2/node_modules/webpack-hot-middleware/client?path=http://172.16.10.93:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
               "/Work/Nodejs/egg/iphone2/app/web/page/front/front.js"
             ],
             "index/index": [
-              "/Work/Nodejs/egg/iphone2/node_modules/webpack-hot-middleware/client?path=http://172.16.9.227:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Work/Nodejs/egg/iphone2/node_modules/webpack-hot-middleware/client?path=http://172.16.10.93:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
               "/Work/Nodejs/egg/iphone2/app/web/page/index/index.js"
             ],
             "router/router": [
-              "/Work/Nodejs/egg/iphone2/node_modules/webpack-hot-middleware/client?path=http://172.16.9.227:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Work/Nodejs/egg/iphone2/node_modules/webpack-hot-middleware/client?path=http://172.16.10.93:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
               "/Work/Nodejs/egg/iphone2/app/web/page/router/router.js"
             ],
             "element/front": "/Work/Nodejs/egg/iphone2/app/web/page/html/element/front.js",
@@ -248,7 +248,7 @@
           },
           "output": {
             "path": "/Work/Nodejs/egg/iphone2/public",
-            "publicPath": "http://172.16.9.227:9000/public/",
+            "publicPath": "http://172.16.10.93:9000/public/",
             "filename": "client/js/[name].js",
             "chunkFilename": "client/js/chunk/[name].js"
           },
@@ -427,7 +427,7 @@
           "output": {
             "libraryTarget": "commonjs2",
             "path": "/Work/Nodejs/egg/iphone2/app/view",
-            "publicPath": "http://172.16.9.227:9000/public/client/",
+            "publicPath": "http://172.16.10.93:9000/public/client/",
             "filename": "[name].js"
           },
           "context": "/Work/Nodejs/egg/iphone2/node_modules/easywebpack/lib",
