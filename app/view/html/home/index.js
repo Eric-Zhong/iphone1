@@ -64,7 +64,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "/public/client/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 49);
+/******/ 	return __webpack_require__(__webpack_require__.s = 47);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -257,37 +257,6 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 127:
-/***/ (function(module, exports) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('Layout', {
-    attrs: {
-      "title": "iPhone 7",
-      "description": "iPhone 7 çšĺ",
-      "keywords": "iPhone, apple"
-    }
-  }, [_c('h1', [_vm._v("Order List")]), _vm._v(" "), _c('table', {
-    staticStyle: {
-      "width": "100%"
-    },
-    attrs: {
-      "border": "1"
-    }
-  }, [_c('tr', [_c('td', [_vm._v("下单时间")]), _vm._v(" "), _c('td', [_vm._v("电话")]), _vm._v(" "), _c('td', [_vm._v("联系人")]), _vm._v(" "), _c('td', [_vm._v("地址")]), _vm._v(" "), _c('td', [_vm._v("价格")]), _vm._v(" "), _c('td', [_vm._v("数量")]), _vm._v(" "), _c('td', [_vm._v("合计")]), _vm._v(" "), _c('td', [_vm._v("操作")])]), _vm._v(" "), _vm._l((_vm.data), function(o) {
-    return _c('tr', [_c('td', [_vm._v(_vm._s(o.order.createtime))]), _vm._v(" "), _c('td', [_vm._v(_vm._s(o.order.telephone))]), _vm._v(" "), _c('td', [_vm._v(_vm._s(o.order.name))]), _vm._v(" "), _c('td', [_vm._v(_vm._s(o.order.address))]), _vm._v(" "), _c('td', {
-      staticClass: "right"
-    }, [_vm._v(_vm._s(o.order.price))]), _vm._v(" "), _c('td', {
-      staticClass: "right"
-    }, [_vm._v(_vm._s(o.order.amount))]), _vm._v(" "), _c('td', {
-      staticClass: "right"
-    }, [_vm._v(_vm._s(o.order.price * o.order.amount))]), _vm._v(" "), _c('td', [_c('button', [_vm._v("已处理")]), _vm._v(" "), _c('button', [_vm._v("删除")])])])
-  })], 2)])
-},staticRenderFns: []}
-module.exports.render._withStripped = true
-
-/***/ }),
-
 /***/ 13:
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -300,6 +269,68 @@ exports.push([module.i, "", ""]);
 
 // exports
 
+
+/***/ }),
+
+/***/ 130:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('Layout', {
+    attrs: {
+      "description": "vue server side render",
+      "keywords": "egg, vue, webpack, server side render"
+    }
+  }, [_c('div', {
+    staticClass: "container smart-container"
+  }, [_c('div', {
+    staticClass: "row row-offcanvas row-offcanvas-right"
+  }, [_c('div', {
+    staticClass: "col-xs-12 col-sm-9"
+  }, [_c('ul', {
+    staticClass: "smart-artiles",
+    attrs: {
+      "id": "articleList"
+    }
+  }, _vm._l((_vm.list), function(item) {
+    return _c('li', [_c('div', {
+      staticClass: "point"
+    }, [_vm._v("+" + _vm._s(item.hits))]), _vm._v(" "), _c('div', {
+      staticClass: "card"
+    }, [_c('h2', [_c('a', {
+      attrs: {
+        "href": item.url,
+        "target": "_blank"
+      }
+    }, [_vm._v(_vm._s(item.title))])]), _vm._v(" "), _c('div', [_c('ul', {
+      staticClass: "actions"
+    }, [_c('li', [_c('time', {
+      staticClass: "timeago"
+    }, [_vm._v(_vm._s(item.moduleName))])]), _vm._v(" "), _c('li', {
+      staticClass: "tauthor"
+    }, [_c('a', {
+      staticClass: "get",
+      attrs: {
+        "href": "#",
+        "target": "_blank"
+      }
+    }, [_vm._v("Sky")])]), _vm._v(" "), _c('li', [_c('a', [_vm._v("+收藏")])]), _vm._v(" "), _c('li', [_c('span', {
+      staticClass: "timeago"
+    }, [_vm._v(_vm._s(item.summary))])]), _vm._v(" "), _c('li', [_c('span', {
+      staticClass: "timeago"
+    })])])])])])
+  })), _vm._v(" "), (_vm.isLoading) ? _c('div', {
+    staticClass: "smart-pager",
+    attrs: {
+      "id": "pagerBottom"
+    }
+  }, [_c('img', {
+    attrs: {
+      "src": __webpack_require__(30)
+    }
+  })]) : _vm._e()])])])])
+},staticRenderFns: []}
+module.exports.render._withStripped = true
 
 /***/ }),
 
@@ -318,16 +349,16 @@ exports.push([module.i, "", ""]);
 
 /***/ }),
 
-/***/ 143:
+/***/ 144:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(89);
+var content = __webpack_require__(90);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
-__webpack_require__(2)("af82a344", content, false)
+__webpack_require__(2)("3f4b76e6", content, false)
 
 /***/ }),
 
@@ -671,6 +702,39 @@ module.exports = require("vue");
 
 /***/ }),
 
+/***/ 30:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/loading.0c81ad12.gif";
+
+/***/ }),
+
+/***/ 38:
+/***/ (function(module, exports, __webpack_require__) {
+
+
+/* styles */
+__webpack_require__(144)
+
+var Component = __webpack_require__(1)(
+  /* script */
+  __webpack_require__(64),
+  /* template */
+  __webpack_require__(130),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\app\\web\\page\\html\\home\\index.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] index.vue: functional components are not supported with templates, they should use render functions.")}
+
+module.exports = Component.exports
+
+
+/***/ }),
+
 /***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -760,33 +824,7 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 40:
-/***/ (function(module, exports, __webpack_require__) {
-
-
-/* styles */
-__webpack_require__(143)
-
-var Component = __webpack_require__(1)(
-  /* script */
-  __webpack_require__(66),
-  /* template */
-  __webpack_require__(127),
-  /* scopeId */
-  null,
-  /* cssModules */
-  null
-)
-Component.options.__file = "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\app\\web\\page\\order\\index.vue"
-if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-if (Component.options.functional) {console.error("[vue-loader] index.vue: functional components are not supported with templates, they should use render functions.")}
-
-module.exports = Component.exports
-
-
-/***/ }),
-
-/***/ 49:
+/***/ 47:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -802,7 +840,7 @@ var _app = __webpack_require__(4);
 
 var _app2 = _interopRequireDefault(_app);
 
-var _index = __webpack_require__(40);
+var _index = __webpack_require__(38);
 
 var _index2 = _interopRequireDefault(_index);
 
@@ -873,7 +911,7 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 66:
+/***/ 64:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -885,14 +923,57 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = {
   components: {},
   data: function data() {
-    return {};
+    return {
+      list: [],
+      isFinish: false,
+      isLoading: false,
+      pageIndex: 1,
+      pageSize: 10
+    };
   },
 
-  computed: {},
-  methods: {},
-  mounted: function mounted() {}
+  computed: {
+    lists: function lists() {
+      return this.list;
+    }
+  },
+  methods: {
+    fetch: function fetch() {
+      var _this = this;
+
+      this.$http.get(location.origin + '/pager?pageIndex=' + this.pageIndex + '&pageSize=' + this.pageSize).then(function (res) {
+        if (res.data.list && res.data.list.length) {
+          _this.total = res.data.total;
+          _this.list = _this.list.concat(res.data.list);
+          console.log(_this.list);
+        } else {
+          _this.isFinish = true;
+        }
+        _this.isLoading = false;
+      });
+    },
+    loadPage: function loadPage() {
+      var _this2 = this;
+
+      if (!this.isFinish && !this.isLoading) {
+        this.isLoading = true;
+        this.pageIndex++;
+        setTimeout(function () {
+          _this2.fetch();
+        }, 1500);
+      }
+    }
+  },
+  mounted: function mounted() {
+    var _this3 = this;
+
+    this.fetch();
+    window.addEventListener('scroll', function () {
+      _this3.loadPage();
+    }, false);
+  }
 };
-module.exports = exports["default"];
+module.exports = exports['default'];
 
 /***/ }),
 
@@ -916,7 +997,7 @@ _vue2.default.component(_standard2.default.name, _standard2.default);
 
 /***/ }),
 
-/***/ 78:
+/***/ 76:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)();
@@ -924,7 +1005,7 @@ exports = module.exports = __webpack_require__(0)();
 
 
 // module
-exports.push([module.i, ".right {\r\n    text-align: right;\r\n}", ""]);
+exports.push([module.i, "", ""]);
 
 // exports
 
@@ -935,21 +1016,6 @@ exports.push([module.i, ".right {\r\n    text-align: right;\r\n}", ""]);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-/***/ }),
-
-/***/ 89:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(0)();
-// imports
-exports.i(__webpack_require__(78), "");
-
-// module
-exports.push([module.i, "\n", ""]);
-
-// exports
 
 
 /***/ }),
@@ -969,6 +1035,21 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 _vue2.default.filter('removeHtml', function (input) {
 	return input && input.replace(/<(?:.|\n)*?>/gm, '').replace(/(&rdquo;)/g, '\"').replace(/&ldquo;/g, '\"').replace(/&mdash;/g, '-').replace(/&nbsp;/g, '').replace(/&gt;/g, '>').replace(/&lt;/g, '<').replace(/<[\w\s"':=\/]*/, '');
 });
+
+/***/ }),
+
+/***/ 90:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)();
+// imports
+exports.i(__webpack_require__(76), "");
+
+// module
+exports.push([module.i, "\n", ""]);
+
+// exports
+
 
 /***/ })
 

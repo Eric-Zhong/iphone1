@@ -1,13 +1,13 @@
 const Model = require('../../mocks/article/list');
 
 exports.index = function* (ctx) {
-  let model = {};
+  const model = {};
   let token = ctx.csrf;
-  token = ctx.cookies.get("csrfToken");
+  token = ctx.cookies.get('csrfToken');
   tokenB = ctx.csrf;
 
-  console.log("读取 Cookie 中 csrfToken 值：" + token)
-  console.log("读取 ctx.csrf 值：" + tokenB);
+  console.log('读取 Cookie 中 csrfToken 值：' + token);
+  console.log('读取 ctx.csrf 值：' + tokenB);
 
 //   构造View中的数据
   model.csrf = ctx.csrf;
@@ -25,5 +25,4 @@ exports.pager = function* (ctx) {
   const pageSize = ctx.query.pageSize;
   ctx.body = Model.getPage(pageIndex, pageSize);
 };
-
 

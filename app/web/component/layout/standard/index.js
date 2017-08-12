@@ -25,11 +25,10 @@ const template = `<!DOCTYPE html>
     <meta content="black" name="apple-mobile-web-app-status-bar-style">
     <meta content="320" name="MobileOptimized">
     <meta content="telephone=no" name="format-detection">
-    <link href="http://www.csxiangfa.com/favicon.ico" type="image/x-icon" rel="icon">
-    <title>正品官网 {{vTitle}}</title>
-    <meta name="keywords" content="正品官网">
-    <meta name="description" content="正品官网">
-    <meta name="author" content="黑眼圈单品管理系统，作者QQ：860180810，www.not3.com">
+    <title>CCDSC {{vTitle}}</title>
+    <meta name="keywords" content="CCDSC">
+    <meta name="description" content="CCDSC">
+    <meta name="author" content="XZSoftware">
 </head>
 <body :class="baseClass">
   <!-- 经过实际使用后发现，这个id="app"的定义，还不能替地方，或者更不能被删掉 -->

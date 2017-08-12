@@ -5,7 +5,7 @@ module.exports = app => {
 
   app.get('orders_list', '/ccdsc/order', app.controller.order.order.list);
 
-  app.get('/element', app.controller.home.home.element);
+  // app.get('/element', app.controller.home.home.element);
   // app.get('/pager', app.controller.home.home.pager);
   // app.get('/about', app.controller.about.about.index);
   // app.get('/router', app.controller.router.router.index);
@@ -14,8 +14,7 @@ module.exports = app => {
   // app.get('/app(/.+)?', app.controller.app.app.index);
   // app.get('/test', app.controller.test.test.index);
 
-  app.post("orders", "/api/v1/order", app.controller.order.order.index);
-
+  app.post('orders', '/api/v1/order', app.controller.order.order.index);
 
 
 };

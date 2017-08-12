@@ -64,7 +64,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "/public/client/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 49);
+/******/ 	return __webpack_require__(__webpack_require__.s = 51);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -257,32 +257,23 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 127:
+/***/ 120:
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('Layout', {
+  return _c('layout', {
     attrs: {
-      "title": "iPhone 7",
-      "description": "iPhone 7 çšĺ",
-      "keywords": "iPhone, apple"
+      "title": "egg-view-vue#unittest",
+      "description": "vue server side render",
+      "keywords": "vue server side render"
     }
-  }, [_c('h1', [_vm._v("Order List")]), _vm._v(" "), _c('table', {
-    staticStyle: {
-      "width": "100%"
-    },
-    attrs: {
-      "border": "1"
-    }
-  }, [_c('tr', [_c('td', [_vm._v("下单时间")]), _vm._v(" "), _c('td', [_vm._v("电话")]), _vm._v(" "), _c('td', [_vm._v("联系人")]), _vm._v(" "), _c('td', [_vm._v("地址")]), _vm._v(" "), _c('td', [_vm._v("价格")]), _vm._v(" "), _c('td', [_vm._v("数量")]), _vm._v(" "), _c('td', [_vm._v("合计")]), _vm._v(" "), _c('td', [_vm._v("操作")])]), _vm._v(" "), _vm._l((_vm.data), function(o) {
-    return _c('tr', [_c('td', [_vm._v(_vm._s(o.order.createtime))]), _vm._v(" "), _c('td', [_vm._v(_vm._s(o.order.telephone))]), _vm._v(" "), _c('td', [_vm._v(_vm._s(o.order.name))]), _vm._v(" "), _c('td', [_vm._v(_vm._s(o.order.address))]), _vm._v(" "), _c('td', {
-      staticClass: "right"
-    }, [_vm._v(_vm._s(o.order.price))]), _vm._v(" "), _c('td', {
-      staticClass: "right"
-    }, [_vm._v(_vm._s(o.order.amount))]), _vm._v(" "), _c('td', {
-      staticClass: "right"
-    }, [_vm._v(_vm._s(o.order.price * o.order.amount))]), _vm._v(" "), _c('td', [_c('button', [_vm._v("已处理")]), _vm._v(" "), _c('button', [_vm._v("删除")])])])
-  })], 2)])
+  }, [_c('div', {
+    staticClass: "title"
+  }, [_vm._v(_vm._s(_vm.message))]), _vm._v(" "), _c('ul', _vm._l((_vm.model), function(item) {
+    return _c('li', {
+      key: "id"
+    }, [_vm._v(_vm._s(item.name))])
+  }))])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 
@@ -303,6 +294,19 @@ exports.push([module.i, "", ""]);
 
 /***/ }),
 
+/***/ 135:
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(81);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+__webpack_require__(2)("1c8336f2", content, false)
+
+/***/ }),
+
 /***/ 14:
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -315,19 +319,6 @@ exports.push([module.i, "", ""]);
 
 // exports
 
-
-/***/ }),
-
-/***/ 143:
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(89);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-__webpack_require__(2)("af82a344", content, false)
 
 /***/ }),
 
@@ -760,33 +751,40 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 40:
+/***/ 42:
 /***/ (function(module, exports, __webpack_require__) {
 
 
 /* styles */
-__webpack_require__(143)
+__webpack_require__(135)
 
 var Component = __webpack_require__(1)(
   /* script */
-  __webpack_require__(66),
+  __webpack_require__(68),
   /* template */
-  __webpack_require__(127),
+  __webpack_require__(120),
   /* scopeId */
   null,
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\app\\web\\page\\order\\index.vue"
+Component.options.__file = "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\app\\web\\page\\test\\test.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-if (Component.options.functional) {console.error("[vue-loader] index.vue: functional components are not supported with templates, they should use render functions.")}
+if (Component.options.functional) {console.error("[vue-loader] test.vue: functional components are not supported with templates, they should use render functions.")}
 
 module.exports = Component.exports
 
 
 /***/ }),
 
-/***/ 49:
+/***/ 5:
+/***/ (function(module, exports) {
+
+module.exports = require("axios");
+
+/***/ }),
+
+/***/ 51:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -802,21 +800,14 @@ var _app = __webpack_require__(4);
 
 var _app2 = _interopRequireDefault(_app);
 
-var _index = __webpack_require__(40);
+var _test = __webpack_require__(42);
 
-var _index2 = _interopRequireDefault(_index);
+var _test2 = _interopRequireDefault(_test);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = _app2.default.init(_extends({}, _index2.default));
+exports.default = _app2.default.init(_extends({}, _test2.default));
 module.exports = exports['default'];
-
-/***/ }),
-
-/***/ 5:
-/***/ (function(module, exports) {
-
-module.exports = require("axios");
 
 /***/ }),
 
@@ -873,7 +864,7 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 66:
+/***/ 68:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -884,15 +875,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = {
   components: {},
-  data: function data() {
-    return {};
+  computed: {
+    model: function model() {
+      return [{
+        id: 1,
+        first: true,
+        name: 'sky'
+      }, {
+        id: 2,
+        first: false,
+        name: 'carl'
+      }];
+    }
   },
-
-  computed: {},
   methods: {},
   mounted: function mounted() {}
 };
-module.exports = exports["default"];
+module.exports = exports['default'];
 
 /***/ }),
 
@@ -916,21 +915,6 @@ _vue2.default.component(_standard2.default.name, _standard2.default);
 
 /***/ }),
 
-/***/ 78:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(0)();
-// imports
-
-
-// module
-exports.push([module.i, ".right {\r\n    text-align: right;\r\n}", ""]);
-
-// exports
-
-
-/***/ }),
-
 /***/ 8:
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -939,15 +923,15 @@ exports.push([module.i, ".right {\r\n    text-align: right;\r\n}", ""]);
 
 /***/ }),
 
-/***/ 89:
+/***/ 81:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)();
 // imports
-exports.i(__webpack_require__(78), "");
+
 
 // module
-exports.push([module.i, "\n", ""]);
+exports.push([module.i, "@charset \"UTF-8\";\n　\nul > li {\n  color: #3399ff; }\n\n.title {\n  font-size: 24px;\n  text-align: center;\n  margin: 16px auto; }\n", ""]);
 
 // exports
 

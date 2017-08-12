@@ -1,284 +1,315 @@
 {
   "siteFile": {
-    "/favicon.ico": "/Work/Nodejs/egg/iphone2/config/config.default.js"
+    "/favicon.ico": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\config\\config.default.js"
   },
   "view": {
-    "cache": "/Work/Nodejs/egg/iphone2/config/config.default.js",
-    "root": "/Work/Nodejs/egg/iphone2/node_modules/egg-view/config/config.default.js",
-    "defaultExtension": "/Work/Nodejs/egg/iphone2/node_modules/egg-view/config/config.default.js",
-    "defaultViewEngine": "/Work/Nodejs/egg/iphone2/node_modules/egg-view-vue/config/config.default.js",
+    "cache": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-view\\config\\config.local.js",
+    "root": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultExtension": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-view-vue\\config\\config.default.js",
     "mapping": {
-      ".js": "/Work/Nodejs/egg/iphone2/node_modules/egg-view-vue/config/config.default.js"
+      ".js": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-view-vue\\config\\config.default.js"
     }
   },
   "vuessr": {
-    "layout": "/Work/Nodejs/egg/iphone2/config/config.default.js",
-    "injectRes": "/Work/Nodejs/egg/iphone2/config/config.default.js",
-    "manifest": "/Work/Nodejs/egg/iphone2/node_modules/egg-view-vue-ssr/config/config.default.js",
-    "buildConfig": "/Work/Nodejs/egg/iphone2/node_modules/egg-view-vue-ssr/config/config.default.js",
-    "injectCss": "/Work/Nodejs/egg/iphone2/node_modules/egg-view-vue-ssr/config/config.default.js",
-    "injectJs": "/Work/Nodejs/egg/iphone2/node_modules/egg-view-vue-ssr/config/config.default.js",
-    "crossorigin": "/Work/Nodejs/egg/iphone2/node_modules/egg-view-vue-ssr/config/config.default.js",
-    "fallbackToClient": "/Work/Nodejs/egg/iphone2/node_modules/egg-view-vue-ssr/config/config.default.js",
-    "afterRender": "/Work/Nodejs/egg/iphone2/node_modules/egg-view-vue-ssr/config/config.default.js"
+    "layout": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\config\\config.default.js",
+    "injectRes": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\config\\config.default.js",
+    "injectCss": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\config\\config.local.js",
+    "manifest": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "buildConfig": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "injectJs": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "crossorigin": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "fallbackToClient": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "afterRender": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-view-vue-ssr\\config\\config.default.js"
   },
   "logger": {
-    "consoleLevel": "/Work/Nodejs/egg/iphone2/config/config.default.js",
-    "dir": "/Work/Nodejs/egg/iphone2/config/config.default.js",
-    "encoding": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-    "env": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-    "level": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-    "disableConsoleAfterReady": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-    "outputJSON": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-    "buffer": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-    "appLogName": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-    "coreLogName": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-    "agentLogName": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-    "errorLogName": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-    "coreLogger": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js"
+    "consoleLevel": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\config\\config.default.js",
+    "dir": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\config\\config.default.js",
+    "encoding": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+    "env": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+    "level": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.local.js"
+    }
   },
   "static": {
-    "prefix": "/Work/Nodejs/egg/iphone2/config/config.default.js",
-    "dir": "/Work/Nodejs/egg/iphone2/config/config.default.js",
-    "dynamic": "/Work/Nodejs/egg/iphone2/node_modules/egg-static/config/config.default.js",
-    "preload": "/Work/Nodejs/egg/iphone2/node_modules/egg-static/config/config.default.js",
-    "buffer": "/Work/Nodejs/egg/iphone2/node_modules/egg-static/config/config.prod.js",
-    "maxFiles": "/Work/Nodejs/egg/iphone2/node_modules/egg-static/config/config.default.js",
-    "maxAge": "/Work/Nodejs/egg/iphone2/node_modules/egg-static/config/config.prod.js"
+    "prefix": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\config\\config.default.js",
+    "dir": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\config\\config.default.js",
+    "maxAge": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\config\\config.local.js",
+    "dynamic": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-static\\config\\config.default.js"
   },
-  "keys": "/Work/Nodejs/egg/iphone2/config/config.default.js",
-  "middleware": "/Work/Nodejs/egg/iphone2/config/config.default.js",
+  "keys": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\config\\config.default.js",
+  "middleware": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\config\\config.default.js",
+  "development": {
+    "watchDirs": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\config\\config.local.js",
+    "ignoreDirs": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\config\\config.local.js",
+    "fastReady": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logview": {
+    "dir": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\config\\config.local.js",
+    "prefix": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-logview\\config\\config.default.js",
+    "staticHost": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-logview\\config\\config.default.js"
+  },
+  "webpack": {
+    "proxyMapping": {
+      "html": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\config\\config.local.js",
+      "js": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-webpack\\config\\config.default.js",
+      "css": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-webpack\\config\\config.default.js",
+      "json": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-webpack\\config\\config.default.js"
+    },
+    "webpackConfigList": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\config\\config.local.js",
+    "port": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-webpack\\config\\config.default.js",
+    "proxy": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-webpack\\config\\config.default.js"
+  },
+  "security": {
+    "csrf": {
+      "useSession": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\config\\config.local.js",
+      "ignoreJSON": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\config\\config.local.js",
+      "cookieName": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\config\\config.local.js",
+      "sessionName": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\config\\config.local.js",
+      "headerName": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\config\\config.local.js",
+      "bodyName": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\config\\config.local.js",
+      "queryName": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\config\\config.local.js",
+      "enable": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "domainWhiteList": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
   "onerror": {
-    "errorPageUrl": "/Work/Nodejs/egg/iphone2/node_modules/egg-onerror/config/config.default.js",
-    "appErrorFilter": "/Work/Nodejs/egg/iphone2/node_modules/egg-onerror/config/config.default.js"
+    "errorPageUrl": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-onerror\\config\\config.default.js"
   },
   "session": {
-    "maxAge": "/Work/Nodejs/egg/iphone2/node_modules/egg-session/config/config.default.js",
-    "key": "/Work/Nodejs/egg/iphone2/node_modules/egg-session/config/config.default.js",
-    "httpOnly": "/Work/Nodejs/egg/iphone2/node_modules/egg-session/config/config.default.js",
-    "encrypt": "/Work/Nodejs/egg/iphone2/node_modules/egg-session/config/config.default.js"
+    "maxAge": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-session\\config\\config.default.js"
   },
   "i18n": {
-    "defaultLocale": "/Work/Nodejs/egg/iphone2/node_modules/egg-i18n/config/config.default.js",
-    "dirs": "/Work/Nodejs/egg/iphone2/node_modules/egg-i18n/config/config.default.js",
-    "queryField": "/Work/Nodejs/egg/iphone2/node_modules/egg-i18n/config/config.default.js",
-    "cookieField": "/Work/Nodejs/egg/iphone2/node_modules/egg-i18n/config/config.default.js",
-    "cookieMaxAge": "/Work/Nodejs/egg/iphone2/node_modules/egg-i18n/config/config.default.js"
+    "defaultLocale": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "/Work/Nodejs/egg/iphone2/node_modules/egg-watcher/config/config.default.js",
+    "type": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-watcher\\config\\config.local.js",
     "eventSources": {
-      "default": "/Work/Nodejs/egg/iphone2/node_modules/egg-watcher/config/config.default.js",
-      "development": "/Work/Nodejs/egg/iphone2/node_modules/egg-watcher/config/config.default.js"
+      "default": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-watcher\\config\\config.default.js"
     }
   },
   "multipart": {
-    "autoFields": "/Work/Nodejs/egg/iphone2/node_modules/egg-multipart/config/config.default.js",
-    "defaultCharset": "/Work/Nodejs/egg/iphone2/node_modules/egg-multipart/config/config.default.js",
-    "fieldNameSize": "/Work/Nodejs/egg/iphone2/node_modules/egg-multipart/config/config.default.js",
-    "fieldSize": "/Work/Nodejs/egg/iphone2/node_modules/egg-multipart/config/config.default.js",
-    "fields": "/Work/Nodejs/egg/iphone2/node_modules/egg-multipart/config/config.default.js",
-    "fileSize": "/Work/Nodejs/egg/iphone2/node_modules/egg-multipart/config/config.default.js",
-    "files": "/Work/Nodejs/egg/iphone2/node_modules/egg-multipart/config/config.default.js",
-    "fileExtensions": "/Work/Nodejs/egg/iphone2/node_modules/egg-multipart/config/config.default.js",
-    "whitelist": "/Work/Nodejs/egg/iphone2/node_modules/egg-multipart/config/config.default.js"
-  },
-  "security": {
-    "domainWhiteList": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js",
-    "protocolWhiteList": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js",
-    "defaultMiddleware": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js",
-    "csrf": {
-      "enable": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js",
-      "useSession": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js",
-      "ignoreJSON": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js",
-      "cookieName": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js",
-      "sessionName": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js",
-      "headerName": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js",
-      "bodyName": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js",
-      "queryName": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js"
-    },
-    "xframe": {
-      "enable": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js",
-      "value": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js"
-    },
-    "hsts": {
-      "enable": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js",
-      "maxAge": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js",
-      "includeSubdomains": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js"
-    },
-    "dta": {
-      "enable": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js"
-    },
-    "methodnoallow": {
-      "enable": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js"
-    },
-    "noopen": {
-      "enable": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js"
-    },
-    "nosniff": {
-      "enable": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js"
-    },
-    "xssProtection": {
-      "enable": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js",
-      "value": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js"
-    },
-    "csp": {
-      "enable": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js",
-      "policy": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js"
-    }
+    "autoFields": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-multipart\\config\\config.default.js"
   },
   "helper": {
-    "shtml": "/Work/Nodejs/egg/iphone2/node_modules/egg-security/config/config.default.js"
+    "shtml": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-security\\config\\config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "/Work/Nodejs/egg/iphone2/node_modules/egg-logrotator/config/config.default.js",
-    "filesRotateBySize": "/Work/Nodejs/egg/iphone2/node_modules/egg-logrotator/config/config.default.js",
-    "maxFileSize": "/Work/Nodejs/egg/iphone2/node_modules/egg-logrotator/config/config.default.js",
-    "maxFiles": "/Work/Nodejs/egg/iphone2/node_modules/egg-logrotator/config/config.default.js",
-    "rotateDuration": "/Work/Nodejs/egg/iphone2/node_modules/egg-logrotator/config/config.default.js",
-    "maxDays": "/Work/Nodejs/egg/iphone2/node_modules/egg-logrotator/config/config.default.js"
+    "filesRotateByHour": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-logrotator\\config\\config.default.js"
   },
   "jsonp": {
-    "limit": "/Work/Nodejs/egg/iphone2/node_modules/egg-jsonp/config/config.default.js",
-    "callback": "/Work/Nodejs/egg/iphone2/node_modules/egg-jsonp/config/config.default.js",
-    "csrf": "/Work/Nodejs/egg/iphone2/node_modules/egg-jsonp/config/config.default.js"
+    "limit": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-jsonp\\config\\config.default.js"
   },
   "vue": {
-    "cache": "/Work/Nodejs/egg/iphone2/node_modules/egg-view-vue/config/config.default.js"
+    "cache": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-view-vue\\config\\config.local.js"
   },
-  "env": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-  "name": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-  "proxy": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-  "protocolHeaders": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-  "ipHeaders": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-  "hostHeaders": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
+  "cors": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-cors\\config\\config.default.js",
+  "webpackvue": {
+    "manifest": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg-webpack-vue\\config\\config.default.js"
+  },
+  "env": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+  "name": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
   "pkg": {
-    "name": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-    "version": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-    "description": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
+    "name": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+    "version": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+    "description": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
     "scripts": {
-      "build": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "build-dev": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "build-test": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "kill-port": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "start": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "start-prod": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "start-prod1": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "restart": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "lint": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "fix": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js"
+      "build": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "build-dev": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "build-test": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "kill-port": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "start": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "start-dev": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "start-test": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "start-prod": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "start-prod1": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "restart": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "lint": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "fix": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js"
     },
     "dependencies": {
-      "axios": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "co": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "co-wait": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "core-js": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "egg": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "egg-logger": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "egg-validate": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "egg-view-vue": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "egg-view-vue-ssr": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "element-ui": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "extend": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "lodash": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "mockjs": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "moment": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "vue": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "vue-router": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "vue-server-renderer": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "vuex": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "vuex-router-sync": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js"
+      "axios": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "co": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "co-wait": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "core-js": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "egg": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "egg-logger": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "egg-validate": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-vue": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-vue-ssr": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "element-ui": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "extend": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "lodash": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "mockjs": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "moment": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "vue": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "vue-router": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "vue-server-renderer": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "vuex": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "vuex-router-sync": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
-      "autod-egg": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "babel-plugin-add-module-exports": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "babel-plugin-transform-object-assign": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "babel-preset-es2015": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "babel-preset-stage-2": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "cross-env": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "easywebpack-vue": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "egg-cors": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "egg-logview": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "egg-webpack": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "egg-webpack-vue": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "eslint": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "eslint-config-egg": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "eslint-plugin-vue": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "ip": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "lowdb": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "node-noop": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "string-replace-webpack-plugin": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "vconsole": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js"
+      "autod-egg": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "babel-plugin-add-module-exports": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "babel-plugin-transform-object-assign": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "babel-preset-es2015": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "babel-preset-stage-2": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "cross-env": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "easywebpack-vue": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "egg-logview": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "egg-webpack": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "egg-webpack-vue": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "eslint-plugin-vue": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "ip": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "lowdb": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "node-noop": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "string-replace-webpack-plugin": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "vconsole": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js"
     },
     "engines": {
-      "node": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js"
+      "node": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js"
     },
     "ci": {
-      "version": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js"
+      "version": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js"
     },
     "repository": {
-      "type": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "url": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js"
+      "type": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "url": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js"
     },
-    "author": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-    "license": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-    "homepage": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js"
+    "author": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+    "license": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+    "homepage": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js"
   },
-  "baseDir": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-  "HOME": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-  "rundir": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
+  "baseDir": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
   "dump": {
-    "ignore": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js"
+    "ignore": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-    "notFound": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-    "sitefile": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-    "middlewares": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-    "httpClient": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js"
+    "bodyparser": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js"
   },
   "notfound": {
-    "pageUrl": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js"
+    "pageUrl": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js"
   },
   "bodyParser": {
-    "enable": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-    "encoding": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-    "formLimit": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-    "jsonLimit": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-    "strict": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
+    "enable": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+    "strict": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
     "queryString": {
-      "arrayLimit": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "depth": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "parameterLimit": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js"
+      "arrayLimit": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "depth": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "httpclient": {
-    "enableDNSCache": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-    "dnsCacheMaxLength": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-    "dnsCacheMaxAge": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
+    "enableDNSCache": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
     "request": {
-      "timeout": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js"
+      "timeout": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "freeSocketKeepAliveTimeout": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "maxSockets": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js"
+      "keepAlive": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "freeSocketKeepAliveTimeout": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "maxSockets": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js"
+      "keepAlive": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js"
     }
   },
-  "coreMiddleware": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-  "workerStartTimeout": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
+  "coreMiddleware": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
   "cluster": {
     "listen": {
-      "path": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "port": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js",
-      "hostname": "/Work/Nodejs/egg/iphone2/node_modules/egg/config/config.default.js"
+      "path": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "port": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js"
     }
   }
 }
