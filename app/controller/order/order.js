@@ -5,7 +5,12 @@ const fileAsync = require('lowdb/lib/storages/file-sync');
 
 let data_folder = process.cwd();
 
-// 使用了RESTful的方式定义了Orders的Api接口
+let db = low(data_folder + '/__db/iphone_order_db.json', {
+    storage: fileAsync
+});
+
+
+    // 使用了RESTful的方式定义了Orders的Api接口
 // KB: 路由定义参考这里 https://eggjs.org/zh-cn/basics/router.html
 exports.index = function* (ctx) {
     // yield ctx.render("index");
@@ -20,14 +25,10 @@ exports.index = function* (ctx) {
     console.log('开始创建订单');
     // var result = yield createOrder(data);
 
-    let db = low(data_folder + '/__db/iphone_order_db.json', {
-        storage: fileAsync
-    });
-
     db.defaults({ orders: [] }).write();
     const result = db.get('orders')
-    .push({ order: data })
-    .write();
+        .push({ order: data })
+        .write();
 
     console.log('结束了异步创建订单');
 
@@ -45,6 +46,15 @@ exports.index = function* (ctx) {
 
 };
 
+
+exports.list = function* (ctx) {
+    var orders = db.get('orders').value();
+    var model = {data: orders};
+    yield ctx.render('order/index.js', model);
+};
+
+
+
 exports.new = function* (ctx) {
     yield ctx.render("new");
 };
@@ -56,7 +66,7 @@ exports.update = function* () { };
 exports.destroy = function* () { };
 
 
-var createFolder = function(to) { //文件写入
+var createFolder = function (to) { //文件写入
     var sep = path.sep
     var folders = path.dirname(to).split(sep);
     var p = '';

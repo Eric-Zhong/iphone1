@@ -9,7 +9,7 @@
             type="info">
     </el-alert>
     <p></p>
-    <el-table :data="list " border style="width: 100%" @selection-change="handleSelectionChange">
+    <el-table :data="list" border style="width: 100%" @selection-change="handleSelectionChange">
       <el-table-column
               prop="id"
               label="ID"
@@ -53,6 +53,7 @@
     },
     methods: {
       fetch(){
+        console.log('加载数据 ？');
         this.$http.get(`/pager?pageIndex=${this.pageIndex}&pageSize=${this.pageSize}`).then(res=> {
           console.log('res', res);
           this.total = res.data.total;

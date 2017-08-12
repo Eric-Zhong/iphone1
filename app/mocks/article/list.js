@@ -1,7 +1,7 @@
 'use strict';
 const data = {
   list: [ {
-    title: 'vue-渐进式JavaScript 框架',
+    title: 'vue-渐进式JavaScript 框架DDDDDDDDDDDDDd',
     summary: '简单小巧的核心，渐进式技术栈，足以应付任何规模的应用',
     hits:200,
     url: 'https://cn.vuejs.org'

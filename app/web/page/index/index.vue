@@ -33,7 +33,7 @@
         </ol>
   
       </div>
-
+      <!--
       <div class="row2">
         <strong>147人已购买</strong>
         <div class="djs">
@@ -46,7 +46,8 @@
           </div>
         </div>
       </div>
-  
+      -->
+      
       <article class="des"></article>
       <a class="btn" href="#mark_order_form">立即购买</a>
     </section>
@@ -139,6 +140,13 @@
   
     <!-- 引用 Vue 的组件来显示 Form 表单 -->
     <order-form :csrf="csrf"></order-form>
+
+
+    <nav>
+        <ul class="Transverse">
+            <li><a href="#mark_order_form"><strong>在线下单</strong></a></li>
+        </ul>
+    </nav>
 
   </Layout>
 </template>
