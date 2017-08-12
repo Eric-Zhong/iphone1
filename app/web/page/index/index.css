@@ -613,3 +613,8 @@
      left: 0;
      font-weight: normal;
  }
+
+/* XZ: 因为一直无法用prod程序部署，只能强制使用test方式，只能把 vconsole hide掉 */
+#__vconsole {
+    display: none!important;
+}
