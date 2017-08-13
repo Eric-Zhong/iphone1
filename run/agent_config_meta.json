@@ -213,7 +213,6 @@
       "extend": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
       "lodash": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
       "mockjs": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
-      "moment": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
       "vue": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
       "vue-router": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
       "vue-server-renderer": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
@@ -237,6 +236,7 @@
       "eslint-plugin-vue": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
       "ip": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
       "lowdb": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
+      "moment": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
       "node-noop": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
       "string-replace-webpack-plugin": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js",
       "vconsole": "C:\\Users\\xuzho\\Work\\XZSoftware\\iPhone\\git-iphone2\\node_modules\\egg\\config\\config.default.js"

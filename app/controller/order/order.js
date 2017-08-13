@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const moment = require('moment');
 const low = require('lowdb');
 const fileAsync = require('lowdb/lib/storages/file-sync');
 
@@ -18,7 +19,8 @@ exports.index = function* (ctx) {
     // 将Ajax转入的form数据，转成string，用于输出显示
   const form = JSON.stringify(ctx.request.body); // 将JSON obj转string
   const data = ctx.request.body;
-  data.createtime = new Date();
+  data.oid = moment().valueOf();
+  data.createtime = moment().format('YYYY-MM-DD hh:mm:ss');
 
   console.log(form);
 
