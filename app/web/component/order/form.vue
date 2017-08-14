@@ -68,7 +68,7 @@
             <label class="bdxx">
               <em>*</em>金额</label>
             <div class="text3box">
-              <input name="price" readonly="" style="width:80px;" v-model="order.price"> 元
+              <input name="totalPrice" readonly="" style="width:80px;" v-model="order.totalPrice"> 元
               <span id="zfbyh"></span>
             </div>
           </div>
@@ -134,23 +134,30 @@ export default {
         depart: "",
         address: "",
         price: 599,
+        totalPrice: 599,
         comment: ""
       }
     };
   },
   // View层计算属性字段
-  computed: {},
+  computed: {
+    totalPrice: function(){
+      return this.order.amount * this.order.price;
+    }
+  },
   // 定义当前页面需要用到的方法
   methods: {
     minnumber() {
       let vm = this;
       if (this.order.amount > 0) this.order.amount--;
-      console.log(this.order);
+      this.order.totalPrice = this.order.price * this.order.amount;
     },
     addnumber() {
       let vm = this;
       if (this.order.amount < 10) this.order.amount++;
+      this.order.totalPrice = this.order.price * this.order.amount;
     },
+
     colorClick(color) {
       let vm = this;
       vm.resetColor();  // 清理原始值为false
@@ -168,8 +175,13 @@ export default {
     },
     submit() {
       let vm = this;
+
+      // 数据有效性判断
+
+
+
       // 为了方便在post中增加csrf，这里定义一个option
-      vm.order._csrf = vm.csrf;
+      // vm.order._csrf = vm.csrf;
       let option = {
         // params: {"_csrf": vm.csrf}
       };

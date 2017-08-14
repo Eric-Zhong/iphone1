@@ -123,8 +123,8 @@
       </p>
       <br>
       <br>
-  
-      <h2>联系我们</h2>
+      
+      <!-- <h2>联系我们</h2>
       <div class="btn">
         <table>
           <tr><td>在线客服1：<img src="../../asset/images/iphone/qq_service.png"></td></tr>
@@ -132,7 +132,7 @@
           <tr><td>在线客服3：<img src="../../asset/images/iphone/qq_service.png"></td></tr>
           <tr><td>在线客服4：<img src="../../asset/images/iphone/qq_service.png"></td></tr>
         </table>
-      </div>
+      </div> -->
     </article>
   
     
