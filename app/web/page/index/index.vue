@@ -21,15 +21,15 @@
   
     <section class="buy">
       <div class="row1">
-        <strong>￥599</strong>
+        <strong>￥699</strong>
   
         <ol>
           <li>
             <p>原价</p>￥6188</li>
           <li>
-            <p>折扣</p>0.97</li>
+            <p>折扣</p>1.11</li>
           <li>
-            <p>节省</p>￥5589</li>
+            <p>节省</p>￥5489</li>
         </ol>
   
       </div>

@@ -12,7 +12,7 @@
             </label>
             <div class="dxbox red chanpin not3chanpin0">
               <label class="now">
-                <input type="radio" name="product" id="a0" value="IP128-01" alt="499" checked="">&nbsp;正品行货4.7寸128G&nbsp;&nbsp;599元
+                <input type="radio" name="product" id="a0" value="IP128-01" alt="699" checked="">&nbsp;正品行货4.7寸128G&nbsp;&nbsp;699元
               </label>
             </div>
           </div>
@@ -133,8 +133,8 @@ export default {
         city: "",
         depart: "",
         address: "",
-        price: 599,
-        totalPrice: 599,
+        price: 699,
+        totalPrice: 699,
         comment: ""
       }
     };
