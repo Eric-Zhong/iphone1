@@ -177,7 +177,19 @@ export default {
       let vm = this;
 
       // 数据有效性判断
-
+      var err = "";
+      if(vm.order.name === ''){
+        err += "需要联系人姓名";
+      }
+      if(vm.order.amount == 0){
+        err += "数据不能小于0\r\n";
+      }
+      if(vm.order.telephone === ''){
+        err += "需要留下你的手机号\r\n";
+      }
+      if(vm.order.address === ''){
+        err += "需要你的详细信息信息\r\n";
+      }
 
 
       // 为了方便在post中增加csrf，这里定义一个option
