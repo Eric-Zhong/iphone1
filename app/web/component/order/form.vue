@@ -123,6 +123,7 @@ export default {
         // { text: "土豪金", checked: false },
         // { text: "科技银", checked: false }
       ],
+      submited: false,
       order: {
         product: "IP128-01",
         color: "银色",
@@ -179,21 +180,26 @@ export default {
       // 数据有效性判断
       var err = "";
       if(vm.order.name === ''){
-        err += "需要联系人姓名";
+        err += "需要联系人姓名\n";
       }
       if(vm.order.amount == 0){
-        err += "数据不能小于0\r\n";
+        err += "数据不能小于0\n";
       }
       if(vm.order.telephone === ''){
-        err += "需要留下你的手机号\r\n";
+        err += "需要留下你的手机号\n";
       }
       if(vm.order.address === ''){
-        err += "需要你的详细信息信息\r\n";
+        err += "需要你的详细地址信息\n";
+      }
+
+      if(err!==""){
+        alert(err);
+        return;
       }
 
 
       // 为了方便在post中增加csrf，这里定义一个option
-      // vm.order._csrf = vm.csrf;
+      vm.order._csrf = vm.csrf;
       let option = {
         // params: {"_csrf": vm.csrf}
       };
@@ -217,6 +223,7 @@ export default {
       ).then(function (response) {
         var resp = response.data;
         if (resp.success) {
+          vm.submited = true; // 提交过了，看看要不要隐藏些东西。
           alert(resp.message);
         } else {
           console.log(resp.error);
